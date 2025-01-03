@@ -1,0 +1,34 @@
+.card-footer {
+    background-color: var(--color-bg-secundary);
+    height: 120px;
+    align-items: center;
+    display: flex;
+}
+
+.div-footer-text {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.div-footer-text p {
+    color: var(--color-font-primary);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 960px) {
+    .div-footer-text {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    .div-footer-text {
+      width: 320px;
+      display: block;
+      text-align: center;
+    }
+}

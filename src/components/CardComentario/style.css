@@ -22,8 +22,7 @@
 }
 
 .card-text-comentario p {
-    padding: 10px;
-    padding-bottom: 10px;
+    padding: 20px;   
     color: var(--color-bg-secundary);
     font-size: 16px;
     font-weight: 400;
